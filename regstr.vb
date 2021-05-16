@@ -1,4 +1,4 @@
-    Sub Main()
+        Sub Main()
 
         Dim sArg() As String = Environment.GetCommandLineArgs
         If UBound(sArg) = 0 Then
@@ -21,6 +21,9 @@
             sCleanCertExtact = sArg(3)
         Catch ex As Exception
         End Try
+
+        If Dir(sFilename) = "" Then End ' Needs to exist
+        If FileLen(sFilename) = 0 Then End ' Needs content
 
         Dim bBytes() As Byte = System.IO.File.ReadAllBytes(sFilename)
 
