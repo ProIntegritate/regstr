@@ -16,25 +16,25 @@ and it would dump those strings on unique lines, but also including the adresses
 Examples of output:
 
 <u>These are the domain names you're looking for:</u>
-cpanel.foobar.com
-*.foobar.com
-*.api.foobar.com
+- cpanel.foobar.com
+- *.foobar.com
+- *.api.foobar.com
 
 <u>OCSP/CRL sites: (maybe what you're not looking for)</u>
-r3.o.lencr.org
-r3.i.lencr.org
-cps.letsencrypt.org
-ocsp.godaddy.com
-ocsp.sectigo.com
-certificates.godaddy.com
-dvcasha2.ocsp-certum.com
-certs.starfieldtech.com
-crl3.digicert.com
-crl4.digicert.com
+- r3.o.lencr.org
+- r3.i.lencr.org
+- cps.letsencrypt.org
+- ocsp.godaddy.com
+- ocsp.sectigo.com
+- certificates.godaddy.com
+- dvcasha2.ocsp-certum.com
+- certs.starfieldtech.com
+- crl3.digicert.com
+- crl4.digicert.com
 
 <u>CRT/CRL files also dumped (also known as junk output)</u>
-SectigoRSADomainValidationSecureServerCA.crt
-cPanelIncCertificationAuthority.crt
-cPanelIncCertificationAuthority.crl
-CloudflareIncECCCA-3.crl
-ThawteRSACA2018.crl
+- SectigoRSADomainValidationSecureServerCA.crt
+- cPanelIncCertificationAuthority.crt
+- cPanelIncCertificationAuthority.crl
+- CloudflareIncECCCA-3.crl
+- ThawteRSACA2018.crl
