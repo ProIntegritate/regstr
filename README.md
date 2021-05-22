@@ -11,7 +11,7 @@ if you want to extract dns name strings from a PCAP of TLS negotiation packets, 
 
 *regstr tls.pcap "[a-zA-Z0-9-]{2,}\.[a-zA-Z]{2,}"*
 
-and it would dump those strings on unique lines, but also including the adresses of CRL and OCSP providers so you would have to filter thatn for yourself.
+and it would dump those strings on unique lines, but also including the adresses of CRL and OCSP providers so you would have to filter that for yourself.
 
 Examples of output:
 
